@@ -217,9 +217,8 @@ h2,
     display: inline-block;
 
     margin-bottom: 1.1rem;
-    align-self: safe;
+    padding: 2rem 1rem;
 
-    padding: 1.9rem 1.1rem;
     background-color: #118DA8;
     border-radius: 50%;
 }
@@ -350,8 +349,49 @@ h2,
 
 
 .footer {
-    margin-top: 6.25rem;
+    margin: 6.25rem auto;
+
+    display: flex;
+    justify-content: space-between;
 }
 
+.footer-logo {
+}
+.footer-logo__social {
+    display: flex;
+    gap: 0.5rem;
+
+    margin-top: 1.5rem;
+}
+.footer-social__item {
+}
+.footer-social__link {
+}
+.footer-nav {
+    display: flex;
+    gap: 7.25rem;
+}
+.footer-nav__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.footer-menu__item {
+}
+.footer-menu__link {
+}
+.hero-social__media {
+}
+.hero-social__items {
+}
+.hero-social__links {
+}
+
+.footer-right {
+    display: flex;
+    gap: 6.25rem;
+
+    padding-right: 13.75rem;
+}
 
 
